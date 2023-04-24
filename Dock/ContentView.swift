@@ -24,10 +24,10 @@ struct ContentView: View {
                     .border(LinearGradient(gradient: Gradient(colors: [.white.opacity(0), .white.opacity(0.3)]), startPoint: .top, endPoint: .bottom))
                     .cornerRadius(8)
                     .rotation3DEffect(.degrees(55), axis: (x: 1, y: 0, z: 0))
-                    .shadow(color: Color(#colorLiteral(red: 0.6959119439, green: 0.5929848552, blue: 0.662648201, alpha: 1)).opacity(1), radius: 0, x: 0, y: 1)
-                    .shadow(color: Color(#colorLiteral(red: 0.6959119439, green: 0.5929848552, blue: 0.662648201, alpha: 1)).opacity(1), radius: 0, x: 0, y: 1)
-                    .shadow(color: Color(#colorLiteral(red: 0.6959119439, green: 0.5929848552, blue: 0.662648201, alpha: 1)).opacity(1), radius: 0, x: 0, y: 1)
-                    .shadow(color: Color(#colorLiteral(red: 0.6959119439, green: 0.5929848552, blue: 0.662648201, alpha: 1)).opacity(1), radius: 0, x: 0, y: 1)
+                    .shadow(color: Color(#colorLiteral(red: 0.6959119439, green: 0.5929848552, blue: 0.662648201, alpha: 1)), radius: 0, x: 0, y: 1)
+                    .shadow(color: Color(#colorLiteral(red: 0.6959119439, green: 0.5929848552, blue: 0.662648201, alpha: 1)), radius: 0, x: 0, y: 1)
+                    .shadow(color: Color(#colorLiteral(red: 0.6959119439, green: 0.5929848552, blue: 0.662648201, alpha: 1)), radius: 0, x: 0, y: 1)
+                    .shadow(color: Color(#colorLiteral(red: 0.6959119439, green: 0.5929848552, blue: 0.662648201, alpha: 1)), radius: 0, x: 0, y: 1)
                     .overlay {
                         HStack(spacing: 30) {
                             ZStack {
