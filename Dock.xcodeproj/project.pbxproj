@@ -14,6 +14,7 @@
 		C497194729F444340000FEA9 /* DockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C497194629F444340000FEA9 /* DockTests.swift */; };
 		C497195129F444340000FEA9 /* DockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C497195029F444340000FEA9 /* DockUITests.swift */; };
 		C497195329F444340000FEA9 /* DockUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C497195229F444340000FEA9 /* DockUITestsLaunchTests.swift */; };
+		C497196129F509650000FEA9 /* SwiftUIVisualEffects in Frameworks */ = {isa = PBXBuildFile; productRef = C497196029F509650000FEA9 /* SwiftUIVisualEffects */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C497196129F509650000FEA9 /* SwiftUIVisualEffects in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +145,9 @@
 			dependencies = (
 			);
 			name = Dock;
+			packageProductDependencies = (
+				C497196029F509650000FEA9 /* SwiftUIVisualEffects */,
+			);
 			productName = Dock;
 			productReference = C497193229F444330000FEA9 /* Dock.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +220,9 @@
 				Base,
 			);
 			mainGroup = C497192929F444330000FEA9;
+			packageReferences = (
+				C497195F29F509650000FEA9 /* XCRemoteSwiftPackageReference "swiftui-visual-effects" */,
+			);
 			productRefGroup = C497193329F444330000FEA9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -583,6 +591,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C497195F29F509650000FEA9 /* XCRemoteSwiftPackageReference "swiftui-visual-effects" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lucasbrown/swiftui-visual-effects";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C497196029F509650000FEA9 /* SwiftUIVisualEffects */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C497195F29F509650000FEA9 /* XCRemoteSwiftPackageReference "swiftui-visual-effects" */;
+			productName = SwiftUIVisualEffects;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C497192A29F444330000FEA9 /* Project object */;
 }
